@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+# Downloaded model assets are too large for git.
+weights/
+
+# Official upstream code should be cloned by setup_official_infinity.ps1.
+third_party/
+
+# Generated samples and runtime cache.
+outputs/
+.cache/
+
+# Local/editor files.
+.env
+.DS_Store
+.vscode/
+.idea/
